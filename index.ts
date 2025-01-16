@@ -35,9 +35,13 @@
 // let john: Member = { name: "kim", age: '123' };
 
 //class 타입지정 가능 전체적인 문법은 JS랑 같지만 타입 지정이 다르다
-class User {
-  name: string;
-  constructor(name: string) {
-    this.name = name;
-  }
-}
+// class User {
+//   name: string;
+//   constructor(name: string) {
+//     this.name = name;
+//   }
+// }
+
+let 버튼 = document.querySelector("#button"); //Selector로 title찾기
+
+버튼?.addEventListener("click", function () {});
