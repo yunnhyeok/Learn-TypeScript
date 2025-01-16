@@ -42,6 +42,8 @@
 //   }
 // }
 
+//ts로 HTML을 조작하기 성공
+
 let 버튼 = document.querySelector("#button"); //Selector로 title찾기
 
 버튼?.addEventListener("click", function () {});
